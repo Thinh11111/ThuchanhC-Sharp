@@ -99,7 +99,8 @@ namespace Thinh1
             //List<SinhVien> listSVKhoaCNTTandDiemtbMax = dsSinhVien.Where(p => p.khoa == "CNTT").ToList() && dsSinhVien.Max(p => p.diemTB);
 
             float maxScore = listSVKhoaCNTT.Max(p => p.diemTB);
-            Console.WriteLine("***********DS Sinh vien co diem trung binh cao nhat thuoc khoa cntt********** ");
+            var listMax = listSVKhoaCNTT.Where(p => p.diemTB == maxScore);
+            XuatDSSinhVien(listMax);
             
 
         }

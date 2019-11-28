@@ -5,6 +5,11 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thinh1", "Thinh1\Thinh1.csproj", "{948F51A9-5DB2-40E2-9A47-2248FDA5BBDD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{7C272C5A-1285-4989-A2FD-8E9253630FF4}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Desktop\Lab01-LapTrinhHuongDoiTuongUngdungConsole.pdf = ..\..\..\..\Desktop\Lab01-LapTrinhHuongDoiTuongUngdungConsole.pdf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
