@@ -41,5 +41,14 @@ namespace Thinh1
             Console.WriteLine("Khoa {0} ", khoa);
             Console.WriteLine("\n");
         }
+        
+       
+        
+        /*public void KTKhoa()
+        {
+            List<SinhVien> dsSinhVien = new List<SinhVien>();
+            List<SinhVien> listSVKhoaCNTT = dsSinhVien.Where(p => p.khoa =="CNTT").ToList();
+  
+        }*/
     }
 }
