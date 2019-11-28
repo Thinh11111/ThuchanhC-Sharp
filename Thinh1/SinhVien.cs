@@ -21,5 +21,25 @@ namespace Thinh1
             diemTB = d;
             khoa = k;
         }
+        public void InPut()
+        {
+            Console.WriteLine("Nhap Ma So Sinh Vien ");
+            maSoSinhVien = Console.ReadLine();
+            Console.WriteLine("Nhap ten sinh vien ");
+            tenSv = Console.ReadLine();
+            Console.WriteLine("Nhap Diem Trung Binh ");
+            diemTB = float.Parse(Console.ReadLine());
+            Console.WriteLine("Nhap khoa ");
+            khoa = Console.ReadLine();
+            Console.WriteLine("\n");
+        }
+        public void Show()
+        {
+            Console.WriteLine("MSSV {0} ", maSoSinhVien);
+            Console.WriteLine("Ten SInh Vien {0} ", tenSv);
+            Console.WriteLine("Diem TB {0} ", diemTB);
+            Console.WriteLine("Khoa {0} ", khoa);
+            Console.WriteLine("\n");
+        }
     }
 }
